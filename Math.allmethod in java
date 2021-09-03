@@ -1,0 +1,19 @@
+package AllMethod;
+
+public class MyMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  int a=20,c=30,d=4;
+  System.out.println("Math.abs:"+Math.abs(a));
+  double b=10.20;
+  System.out.println("Math.floor:"+Math.floor(b));
+  System.out.println("Math.maximum:"+Math.max(a, c));
+  System.out.println("Math.minimum:"+Math.min(a, c));
+  System.out.println("Math.power:"+Math.pow(2, 3));
+  System.out.println("Math.random"+Math.random());
+  System.out.println("Math.round"+Math.round(b));
+  System.out.println("Math.squureroot"+Math.sqrt(d));
+	}
+
+}
